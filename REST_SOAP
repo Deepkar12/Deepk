@@ -1,0 +1,50 @@
+What is API?
+The API is a key method for communicating between systems to retrieve key information without 
+doing the backend processing. All these have a different architecture and use cases. There
+are three popularly known APIs and they are:
+• REST
+• WEB
+• SOAP
+REST (Representational State Transfer) is a web-based application programming 
+interface. This API adheres to the REST Architectural methodology.
+REST main purpose is to provide the foundation, and this enables a user to build web 
+services. These web services are later consumed by various clients. Besides supporting 
+these clients, REST API Architecture can also include web, mobile, and desktop 
+applications. The standard protocol used to communicate on the internet is HTTP, and REST 
+is based on HTTP. The standard HTTP methods, like post, put, get, and delete, are used by 
+REST API to execute the various operations on the resources. To identify the resource 
+responses, a unique URL e.g., https//example.com/unique-url, is used. The responses returned 
+are always stored either in JSON or XML format.
+REST API adheres to the stateless client-server model, which is REST API’s unique 
+feature. The major benefit of the stateless model is that the server does not store any 
+information about the client state during the requests. Each of the requests contains all the 
+essential information necessary for the server to process the request. This distinct
+architecture has made REST API scalable and easy to maintain.
+When to use the REST API
+The use of REST API can be classified into the following:
+• REST API provides developers the best advantage in building a stateless web 
+service. It is browser friendliness.
+• It enables a developer to build web services that demand flexibility, and scalability, by 
+utilizing easy maintenance architecture.
+• REST API is the best methodology for building applications that require CRUD 
+operations. (Create, Read, Update, and Delete)
+• REST API is also feasible to build real-time communication applications, such as 
+Chat/Bot applications and streaming services (e.g., Messenger, Skype, WhatsApp, 
+Netflix, Disney Hotstar, and Amazon Prime.
+
+
+When to use the SOAP 
+SOAP (Simple Object Access Protocol) is a web-based application programming 
+interface. SOAP API is used as a communicating protocol, to exchange structured data 
+between non-identical applications, unrestrained of the platform or programming language. 
+XML is the most common format to store data independent of any programming language.
+XML is used as a universal format for data on the web, so XML scripting language is 
+utilized to store and receive data. The XML language enables a developer to deliver rich, 
+and structured data to the client and can support a list of data types, like text, numbers, 
+dates, and binary data. 
+SOAP API has platform-independent features, that enable to support multiple transport 
+protocols - HTTP, SMTP, and FTP. To assist in exchanging messages between applications, 
+SOAP API has a defined standardized set of rules. The add-on feature of SOAP API is its 
+ability to provide advanced security mechanisms like digital signatures and encryptions. This 
+gives confidence that the application is secure and can never be trespassed by unauthorized 
+users.
